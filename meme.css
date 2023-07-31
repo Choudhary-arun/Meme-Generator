@@ -1,0 +1,31 @@
+.meme-generator{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.meme-generator img{
+    height: 430px;
+    object-fit: cover;
+}
+.meme-generator .generate-meme-button{
+     padding: 8px 20px;
+     border:none;
+     border-left: 4px solid #222;
+     border-right: 4px solid #222;
+     margin:24px 0;
+     color: #f64df6;
+     background: #fff;
+     cursor: pointer;
+     transition: all 400ms ease;
+    }
+    
+    .meme-generator .generate-meme-button:hover{
+        padding: 8px 36px;
+        border-left: 8px solid #222;
+        border-right: 8px solid #222;
+        letter-spacing: 3px;
+} 
+
+.meme-author{
+    margin: 8px;
+}
